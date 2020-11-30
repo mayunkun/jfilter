@@ -13,11 +13,11 @@ import java.util.List;
 
 /**
  * @Author l'amour solitaire
- * @Description TODO
+ * @Description JfilterWebMvcConfig
  * @Date 2020/7/16 上午9:53
  **/
 @Configuration
-public class WebMvcConfig extends WebMvcConfigurationSupport {
+public class JfilterWebMvcConfig extends WebMvcConfigurationSupport {
 
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
